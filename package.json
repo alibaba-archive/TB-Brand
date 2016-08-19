@@ -1,0 +1,41 @@
+{
+  "name": "tb-brand",
+  "version": "0.0.1",
+  "description": "A tiny collection of brand-related visual assets for Teambition web development.",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "main": "lib/tb-brand.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "test": "node examples/umd && $(npm bin)/tape test/index.js",
+    "build": "rm -rf lib && NODE_NEV=build $(npm bin)/webpack",
+    "prepublish": "npm run test"
+  },
+  "files": [
+    "src",
+    "lib",
+    "assets",
+    "README.md"
+  ],
+  "author": {
+    "name": "Sune Bear",
+    "email": "hi@sunebear.com",
+    "url": "http://sunebear.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teambition/TB-Brand.git"
+  },
+  "devDependencies": {
+    "babel": "6.3.13",
+    "babel-core": "6.1.18",
+    "babel-loader": "6.1.0",
+    "babel-plugin-add-module-exports": "0.1.2",
+    "babel-preset-es2015": "6.3.13",
+    "loader-utils": "~0.2.5",
+    "svgo": "^0.6.6",
+    "svgo-loader": "^1.1.0",
+    "tape": "^4.6.0",
+    "webpack": "1.12.9"
+  }
+}
