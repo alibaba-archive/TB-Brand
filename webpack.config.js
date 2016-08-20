@@ -3,8 +3,8 @@ const path = require('path')
 
 const package = require('./package')
 const svgoConfig = require('./svgo.config')
-const libraryName = package['name']
-const outputFile = libraryName + '.js'
+const libraryName = 'tbrand'
+const outputFile = package['name'] + '.js'
 
 const config = {
   entry: __dirname + '/src/index.js',
@@ -34,11 +34,6 @@ const config = {
         ]
       }
     ]
-  },
-  resolveLoader: {
-    alias: {
-      "base64-loader": path.join(__dirname, "./loaders/base64-loader")
-    }
   },
   resolve: {
     root: path.resolve('./src'),

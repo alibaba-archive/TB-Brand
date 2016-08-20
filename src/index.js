@@ -13,6 +13,7 @@ export const avatars = {
 
 export const icons = {
   favicon: require('../assets/icons/regular@32.png'),
+  faviconSquare: require('../assets/icons/favicon-square.png'),
   regular: require('../assets/icons/regular.svg'),
   round: require('../assets/icons/round.svg')
 }

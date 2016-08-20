@@ -3,15 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Teambition Brand Example</title>
-  <script src='../../lib/tbrand.js'></script>
+  <title>Teambition | Loading... </title>
+  <link rel="stylesheet" href="./style.css">
+  <script src='./lib/tb-brand.js'></script>
+  <script src='./vendor/json-to-table.js'></script>
 </head>
 <body>
- <script>
-   var logo = document.createElement('IMG')
-   logo.src = window.tbrand.logos.regular
-   document.body.appendChild(logo)
- </script>
-
+  <div class="cover">
+    <div class="col-main"></div>
+    <div class="col-sidebar">
+      <div class="sidebar-top"></div>
+      <div class="sidebar-bottom"></div>
+    </div>
+  </div>
+  <script src='./main.js'></script>
 </body>
 </html>
