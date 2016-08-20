@@ -19,7 +19,7 @@ export const en = {
   }
 }
 
-export const zh = mixinDeep({}, en, {
+export const zh = mixinDeep({ founder: {} }, en, {
   name: 'Teambition',
   slogan: '最好用的团队协作工具',
   discription: 'Teambition 是一个简单，高效的项目协作工具，你可以在这里管理项目，跟踪任务进度，存储项目文件，让你的团队协作更高效。',
