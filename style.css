@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400';
+
 * {
   margin: 0;
   padding: 0;
@@ -82,13 +84,16 @@ body {
   padding: 15px 30px;
   border-bottom: 1px dashed #d9d9d9;
   text-align: left;
+  font-weight: 300;
 }
 
 .info-table-wrap tr td:first-child {
   width: 38.2%;
   text-align: right;
-  font-weight: 500;
   border-right: 1px solid #383838;
+}
+
+.info-table-wrap tr td:last-child {
 }
 
 .info-table-wrap tr:last-child td {
