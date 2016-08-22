@@ -19,7 +19,7 @@ npm install --save tb-brand
 ### Import
 So excited to tell you, the library [`tbrand`](src/index.js) supports [UMD](https://github.com/umdjs/umd) and ES6 Modules Definition.
 
-When you use ES6 Modules to import tbrand, please make sure your build environment works with webapck and [base64-loader](https://github.com/SuneBear/base64-loader).
+When you use ES6 Modules to import tbrand, please make sure your build environment works with Webapck and [base64-loader](https://github.com/SuneBear/base64-loader).
 
 If module is not found, use full path or support [`jsnext:main`](https://github.com/jsforum/jsforum/issues/5) to resolve.
 

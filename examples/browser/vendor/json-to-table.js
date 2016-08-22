@@ -116,6 +116,7 @@ function ConvertJsonToTable(parsedJson, tableId, tableClassName, linkText) {
                   .replace(/\{|\}|"/ig, '')
                   .replace(/\:/g, ': ')
                   .replace(/,(?! )/g, '<br/>')
+                  .replace(/linkedin/g, 'linkedIn')
                 );
               } else {
                 tbCon += tdRow.format(value);
