@@ -3,7 +3,7 @@ The etymology of the word "Teambition" is a combination of the two words, team a
 
 Teambition is an easy and efficient way to work, by creating tasks, sharing posts and documents, keeping track of your calendar and checking everyone's progress.
 
-This repository contains [the profiles](src/infos.js) and [the visual assets](assets) which include:
+This repository contains [the profiles](src/info.js) and [the visual assets](assets) which include:
 
 - Logos and Doodles;
 - SNS Avatars;
